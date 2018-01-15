@@ -8,7 +8,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class InventoryService {
 
-    constructor(private http: Http) { }
+    constructor(private http: Http) {}
 
     public getAllProducts() {
         return this.http.get('/api/Product/GetProducts').map((res: Response) => <Product[]>res.json())

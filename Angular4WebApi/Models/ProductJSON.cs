@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace Angular4WebApi.Models
+﻿namespace Angular4WebApi.Models
 {
     public class ProductJSON
     {

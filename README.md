@@ -1,4 +1,5 @@
-# Angular4_QRCode_ASPNETWebAPI
-Generate QR Code using Angular 4, ASP.NET Web API
-Complete description about the source code can be found at :
-https://sudiptach.wordpress.com/2017/07/01/generate-qr-code-angular4-aspnetwebapi/
+# Angular4_CRUD_WebAPI_EF
+Angular 4 CRUD Application with ASP.NET Web API, Entity Framework and SQL Server
+
+Complete description abouth the source code is available at : 
+https://sudiptach.wordpress.com/2017/08/09/angular4-crud-aspnetwebapi-ef-sqlserver/

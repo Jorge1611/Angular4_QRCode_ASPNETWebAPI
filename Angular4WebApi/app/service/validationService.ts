@@ -1,4 +1,4 @@
-﻿import { FormControl } from '@angular/forms';
+﻿import {FormControl} from '@angular/forms';
 
 export class ValidationService {
     static nospaceValidator(control: FormControl): { [s: string]: boolean } {

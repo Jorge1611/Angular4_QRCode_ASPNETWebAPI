@@ -9,11 +9,11 @@ namespace Angular4WebApi.Controllers
 {
     public class ProductController : ApiController
     {
-        private readonly Angular4Entities _context;
+        private readonly InventoryEntities _context;
 
         public ProductController()
         {
-            _context = new Angular4Entities();
+            _context = new InventoryEntities();
         }
         // GET api/<controller>
         [Route("api/Product/GetProducts")]
@@ -64,7 +64,7 @@ namespace Angular4WebApi.Controllers
                 throw new ArgumentNullException("p");
             }
 
-            using (var ctx = new Angular4Entities())
+            using (var ctx = new InventoryEntities())
             {
                 var product = _context.Product.Single(a => a.Id == p.Id);
 
@@ -87,7 +87,7 @@ namespace Angular4WebApi.Controllers
         // DELETE api/<controller>/5
         public bool Delete(int id)
         {
-            using (var ctx = new Angular4Entities())
+            using (var ctx = new InventoryEntities())
             {
                 Product products = ctx.Product.Find(id);
                 ctx.Product.Remove(products);
